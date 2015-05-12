@@ -1,0 +1,47 @@
+{
+  "name": "helper-read",
+  "description": "Template helper for reading from the file system.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/helper-read",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/helper-read.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/helper-read/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/helper-read/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "engine-lodash": "^0.6.3",
+    "lodash": "^3.8.0",
+    "mocha": "*",
+    "should": "*",
+    "template": "^0.14.0"
+  },
+  "keywords": [
+    "assemble",
+    "async",
+    "helper",
+    "lodash",
+    "read",
+    "template",
+    "verb"
+  ]
+}
