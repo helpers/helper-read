@@ -1,11 +1,13 @@
 # helper-read [![NPM version](https://badge.fury.io/js/helper-read.svg)](http://badge.fury.io/js/helper-read)
 
-> Template helper for reading from the file system.
+> Template helper for reading from the file system. Includes both async and sync versions.
+
+## Install
 
 Install with [npm](https://www.npmjs.com/)
 
-```sh
-$ npm i helper-read --save
+```bash
+npm i helper-read --save
 ```
 
 ## Usage
@@ -14,7 +16,17 @@ $ npm i helper-read --save
 var read = require('helper-read');
 ```
 
-**Usage with [template]**
+**Usage with [lodash](https://lodash.com/)**
+
+```js
+var ctx = {read: read.sync};
+_.template('<%= read("fixtures/a.txt") %>')(ctx);
+//=> 'AAA'
+_.template('<%= read("fixtures/b.txt") %>')(ctx);
+//=> 'BBB'
+```
+
+**Usage with [Template](https://github.com/jonschlinkert/template)**
 
 ```js
 var read = require('helper-read');
