@@ -1,6 +1,6 @@
 {
   "name": "helper-read",
-  "description": "Template helper for reading from the file system.",
+  "description": "Template helper for reading from the file system. Includes both async and sync versions.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/helper-read",
   "author": {
